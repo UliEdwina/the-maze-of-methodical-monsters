@@ -27,7 +27,7 @@ function updateHtml() {
 }   
 
 function updateDamage() {
-    let monsterDamageAction = getAction(monster.lastDamageTaken)
+    let monsterDamageAction = getAction(monster.lastDamageTaken);
     let playerDamageAction = getAction(player.lastDamageTaken);
 
     const monsterDamageText = `You ${monsterDamageAction} the monster for ${monster.lastDamageTaken} damage.`
