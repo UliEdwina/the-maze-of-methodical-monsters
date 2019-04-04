@@ -1,4 +1,4 @@
-const player = {
+const player  = {
     hitPoints: 100,
     lastDamageTaken: 0,
     isAlive: true,
